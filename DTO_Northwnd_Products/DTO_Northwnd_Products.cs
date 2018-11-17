@@ -26,7 +26,7 @@ namespace DTO_Northwnd_Products
         public int ReorderLevel1 { get => ReorderLevel; set => ReorderLevel = value; }
         public bool Discontinued1 { get => Discontinued; set => Discontinued = value; }
 
-        public DTO_Northwnd_Products(int ProductID2, string ProductName2, int SupplierID2, int CategoryID2, string QuantityPerUnit2 double UnitPrice2, int UnitsInStock2, int UnitsOnOrder2, int ReorderLevel2, bool Discontinued2)
+        public DTO_Northwnd_Products(int ProductID2, string ProductName2, int SupplierID2, int CategoryID2, string QuantityPerUnit2, double UnitPrice2, int UnitsInStock2, int UnitsOnOrder2, int ReorderLevel2, bool Discontinued2)
         {
             this.ProductID = ProductID2;
             this.ProductName = ProductName2;
