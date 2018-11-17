@@ -76,5 +76,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS_Northwnd_Products\BUS_Northwnd_Products.csproj">
+      <Project>{cf48d1bd-4b21-4c10-9528-7a89009c5063}</Project>
+      <Name>BUS_Northwnd_Products</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO_Northwnd_Products\DTO_Northwnd_Products.csproj">
+      <Project>{69c2a0f0-b4b2-4f62-95bf-5629490620e4}</Project>
+      <Name>DTO_Northwnd_Products</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

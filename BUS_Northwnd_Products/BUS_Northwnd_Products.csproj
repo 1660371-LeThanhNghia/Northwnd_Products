@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL_Northwnd_Products\DAL_Northwnd_Products.csproj" />
+    <ProjectReference Include="..\DTO_Northwnd_Products\DTO_Northwnd_Products.csproj" />
+  </ItemGroup>
+
+</Project>
