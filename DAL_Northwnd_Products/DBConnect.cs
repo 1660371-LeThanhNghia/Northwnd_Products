@@ -9,6 +9,8 @@ namespace DAL_Northwnd_Products
 {
     class DBConnect
     {
-        public SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-OL81NRF\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=True;");
+        private SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-OL81NRF\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=True;");
     }
+
+    
 }
